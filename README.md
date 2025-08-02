@@ -1,4 +1,4 @@
-My attempt at recreating James from codejames.au's nav routing app in SwiftUI.
+My attempt at recreating the app from codejames.au's nav routing app in SwiftUI.
 
 Original video here:
 
