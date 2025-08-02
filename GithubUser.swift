@@ -26,9 +26,6 @@ class GHViewModel: ObservableObject {
         
         do {
             self.user = try await download(from: url)
-            let myNum = 2 + 3
-            print("myNum: \(myNum)")
-            
         } catch let error {
             print("error downloading: \(error.localizedDescription)")
         }
@@ -52,7 +49,7 @@ class GHViewModel: ObservableObject {
 
 struct GithubUserView: View {
     
-    @StateObject var vm: GHViewModel = GHViewModel(username: "yujingz")
+    @StateObject var vm: GHViewModel = GHViewModel(username: "markawil")
     
     var body: some View {
         VStack(spacing: 20) {
